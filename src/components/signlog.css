@@ -1,0 +1,218 @@
+
+
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.wrapper{
+    width: 420px;
+    background-color: transparent;
+    border:2px solid rgba(225, 225, 225, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    backdrop-filter: blur(4px);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+ .wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height:50px;
+
+    margin: 30px 0;
+}
+.input-box input{
+    width: 95%;
+    height:100%;
+    background: transparent;
+    outline:none;
+    color:rgb(254, 253, 253);
+    border:2px solid rgba(225, 225, 225, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    padding: 0 10px 0 10px;
+}
+.input-box input::placeholder{
+    color:#fff
+}
+.wrapper .remember-forgot {
+    justify-content: space-between;
+    display: flex;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 4px;
+}
+.remember-forgot a{
+    color: #fff;
+    text-decoration: none;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+.wrapper button{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+    transition: all 0.4s ease;
+}
+.wrapper button:active{
+    transform: scale(0.9);
+    box-shadow: .5px 1px black;
+}
+
+
+.wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.register-link p a{
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+}
+/* -----resumepage--- */
+.resumecard{
+        display:flex;
+        flex-wrap: nowrap;
+        height: 90vh;
+        align-items: center;
+        padding:  100px 300px 100px 400px;
+        
+}
+.onclick{
+    transition: all 0.3s ease;
+}
+.onclick:hover{
+    transform: scale(1.1);
+    z-index: z;
+}
+.bg{
+    background-image: url(../images/homebg.png);
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.registration{
+    
+        display:flex;
+        height: 100vh;
+        align-items: center;
+        padding:  400px 300px 100px 675px;
+       
+}
+.cardz{
+     margin-top: 230px;
+     margin-left:-250px;
+     border-radius: 15px;
+     padding:  10px 30px 10px 40px;
+     background:url(../images/templatebg.png);
+    outline:none;
+    color:rgb(255, 255, 255);
+    border:2px solid rgba(225, 225, 225, .2);
+    backdrop-filter: blur(45px);
+
+}
+.cardz2{
+    margin-top: -1270px;
+    margin-left:171px;
+    border-radius: 15px;
+    padding:  10px 30px 10px 40px;
+    background: url(../images/templatebg.png);
+   outline:none;
+   color:rgb(255, 255, 255);
+   border:2px solid rgba(225, 225, 225, .2);
+   backdrop-filter: blur(45px);
+
+}
+.button{
+    width: 100%;
+    height: 50px;
+    background-color: #221e1e;
+    border: none;
+    outline: none; 
+
+    
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+    transition: all 0.4s ease;
+}
+.button:active{
+    transform: scale(0.9);
+    box-shadow: .5px 1px black;
+}
+.template1{
+    text-align: center;
+    justify-content: center;
+    margin-top: 200px;
+     border-radius: 15px;
+     background: transparent;
+    outline:none;
+    color:rgb(255, 255, 255);
+    border:2px solid rgba(225, 225, 225, .2);
+    backdrop-filter: blur(45px);
+}
+
+
+.dbutton{
+    width: 100%;
+    height: 50px;
+    background-color: #f5f1f1;
+    border: none;
+    outline: none; 
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+    transition: all 0.4s ease;
+}
+.dbutton:active{
+    transform: scale(0.9);
+    box-shadow: .5px 1px black;
+}
+
+
+
+
+
+  
+  
+
+ 
+
+  
+ 
+
+ 
+  
+ 
