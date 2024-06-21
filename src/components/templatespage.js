@@ -123,7 +123,7 @@ const TemplatesPage = () => {
 
   return (
     <div className='bg'>
-    <div className='registration'>
+    <section className='registration'>
       <form onSubmit={(e) => e.preventDefault()} className='cardz' style={{width: "25rem"}}>
         <div className='input-box'>
           Name:
@@ -208,7 +208,7 @@ const TemplatesPage = () => {
           Add Education
         </button>
         </form>
-        </div>
+        </section>
 
 
         <div className='registration'>
