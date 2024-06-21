@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom'
 function Resumepage() {
   const Navigate=useNavigate()
   return (
-    <div>
+    <div className='container-fluid'>
     <div className='resumecard' >
     <div class="row row-cols-4 row-cols-md-2 g-8">
   <div class="col">

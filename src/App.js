@@ -12,7 +12,7 @@ import Templatespage from './components/templatespage';
 import Registration from './components/registration';
 function App() {
   return (
-    <div>
+    <div className='container-fluid'>
     <header style={{backgroundColor:' #333',paddingLeft:'20px'}}>
     <a href='#' className='logo' ><img src={logo} alt='' style={{width:"40px",height:"40px",borderRadius:"25px"}}/> Resume Builder </a>
       <nav className='header'>

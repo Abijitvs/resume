@@ -122,8 +122,8 @@ const TemplatesPage = () => {
   };
 
   return (
-    <div className='bg'>
-    <section className='registration'>
+    <div className='container-fluid'>
+    <section className='registration container-fluid'>
       <form onSubmit={(e) => e.preventDefault()} className='cardz' style={{width: "25rem"}}>
         <div className='input-box'>
           Name:
