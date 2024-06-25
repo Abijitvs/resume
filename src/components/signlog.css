@@ -103,8 +103,20 @@
         flex-wrap: nowrap;
         height: 90vh;
         align-items: center;
-        padding:  100px 300px 100px 400px;
+       
         
+}
+@media(min-width:1200px){
+  .resumecard{
+    padding:  100px 400px 100px 400px ;
+  }
+}
+@media(min-width:576px){
+  .resumecard{
+    padding:auto;
+    flex-direction: column;
+    
+  }
 }
 .onclick{
     margin:auto;
@@ -128,28 +140,108 @@
         display:flex;
         height: 100vh;
         align-items: center;
-        padding:  400px 300px 100px 675px;
+        justify-content:center;
+        
        
 }
-.cardz{
-     margin-top: 230px;
-     margin-left:-250px;
-     border-radius: 15px;
-     padding:  10px 30px 10px 40px;
-     background:url(../images/templatebg.png);
-    outline:none;
-    color:rgb(255, 255, 255);
-    border:2px solid rgba(225, 225, 225, .2);
-    backdrop-filter: blur(45px);
+.reclass{
+    
+  diSplay: flex;
+  height: 1000px;
+  width: 100%;
+  margin-top: 1.3%;
+  flex-direction: row;
+  
+}
 
+@media(max-width:576px){
+  .reclass{
+    flex-direction: column;
+    
+   }
+   .registration{
+   width: 500px;
+   
+   
+    
+  }
+  .cardz{
+
+    margin-left: 10px;
+    margin-top: 100px;
+    
+    
+   }
+    
+   .cardz2{
+    width:100%;
+   
+}
+
+}
+@media(max-width:888px){
+    .reclass{
+        flex-direction: column;
+        
+       }
+       .registration{
+        margin-top:50%;
+        
+        margin-left: 0%;
+        
+      }
+      .cardz{
+        margin-top: -500px;
+        margin-left: 0%;
+        
+        
+       }
+        
+       .cardz2{
+        width:100%;
+}
+}
+
+@media(max-width:1200px){
+  .registration{
+   
+    
+  }
+  .cardz{
+    
+    margin-top: 420px;
+    
+   
+  }
+  .cardz2{
+    margin-top: 320px;
+    width:500px;
+    
+   }
+}
+
+
+.cardz{
+     
+     border-radius: 15px;
+     margin-top: 300px;
+     margin-left: 38%;
+     
+     background:url(../images/templatebg.jpg);
+    outline:none;
+    background-size: cover;
+    width: 100%;
+    color:rgb(255, 255, 255);
+    
 }
 
 .cardz2{
-    margin-top: -1270px;
-    margin-left:171px;
+  
     border-radius: 15px;
-    padding:  10px 30px 10px 40px;
-    background: url(../images/templatebg.png);
+    margin-top: 300px;
+   
+    background: url(../images/templatebg.jpg);
+    background-size: cover;
    outline:none;
    color:rgb(255, 255, 255);
    border:2px solid rgba(225, 225, 225, .2);

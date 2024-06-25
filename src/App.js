@@ -10,6 +10,7 @@ import Signin from './components/signup';
 import Resumepage from './components/resumepage';
 import Templatespage from './components/templatespage';
 import Registration from './components/registration';
+import TemplatesPage1 from './components/registration';
 function App() {
   return (
     <div className='container-fluid'>
@@ -31,7 +32,7 @@ function App() {
         <Route path='/signin' element={<Signin/>}/>
         <Route path='/resumepage' element={<Resumepage/>}/>
         <Route path='/templatespage' element={<Templatespage/>}/>
-        <Route path='/registration' element={<Registration/>}/>
+        <Route path='/registration' element={<TemplatesPage1/>}/>
       </Routes>
     </div>
   );

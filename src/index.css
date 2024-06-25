@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.page {
+  width: '210mm';
+  height: '297mm';
+  margin: '20px auto';
+  padding: '20px';
+  border: '1px solid #ddd';
+  box-Shadow: '0 0 10px rgba(0, 0, 0, 0.1)'
+},
+.section {
+  margin-Bottom: '20px';
+  padding-Bottom: '10px';
+  border-Bottom: '1px solid #ccc'
+}
+.header {
+  font-Size: '40px';
+  font-Weight: 'bold';
+  margin-Bottom: '10px';
+  color: '#333'
+}
+title {
+  font-Size: '26px';
+  font-Weight: 'bold';
+  margin-Bottom: '5px';
+  color: '#333'
+}
+.text {
+  font-Size: '14px';
+  margin-Bottom: '5px';
+  color: '#666'
+}
+.image {
+  width: '100px';
+  height: '100px';
+  margin-Bottom: '20px'
+}

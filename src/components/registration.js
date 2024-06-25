@@ -1,133 +1,52 @@
-import React from 'react'
-import './signlog.css'
+// import React from 'react'
+// import './index.css'
 
-function Registration() {
-  return (
-<div>
+// function Registration() {
+//   return (
+// <div >
+// <div size="A4" className ='page'>
+//       {imageUrl && <Image src={imageUrl} style={styles.image} />}
+//       <View className='section'>
+//         <Text className='header'>aaaaa</Text>
+//         <Text className='text'>aaaaa</Text>
+//         <Text className='text'>aaaaaa</Text>
+//       </View>
+//       <View className='section'>
+//         <Text className='title'>Objective:</Text>
+//         <Text className='text'>aaaaa</Text>
+//       </View>
+//       <View className='section'>
+//         <Text className='title'>Education:</Text>
+//         {education.map((edu, index) => (
+//           <View key={index}>
+//             <Text className='text'>{edu.degree}, {edu.institution}</Text>
+//             <Text className='text'>{edu.date}</Text>
+//           </View>
+//         ))}
+//       </View>
+//       <View className='section'>
+//         <Text className='title'>Work Experience:</Text>
+//         {workExperience.map((exp, index) => (
+//           <View key={index}>
+//             <Text className='text'>aaaaaa</Text>
+//             <Text className='text'>aaaaa</Text>
+//             <Text className='text'>aaaaaaa</Text>
+//           </View>
+//         ))}
+//       </View>
+//       <View className='section'>
+//         <Text className='title'>Skills:</Text>
+//         {skills.map((skill, index) => (
+//           <Text className='text' key={index}>{skill}</Text>
+//         ))}
+//       </View>
 
-<section className='registration'>
-<div class="row row-cols-4 row-cols-md-2 g-8">
-<div class="col">
-<div class="cardz">
-<div><h2 class="card-title">registration form</h2></div><br/>
-<br/>
-
-  <form>
-  <div className='input-box'>
-  <input type="text" id="fullName" placeholder="fullName" required/>
-</div>
-<br/>
-
-<div className='input-box'>
-  <input type="email" id="email" placeholder="email" required/>
-</div><br/>
-
-<div className='input-box'>
-  <input type="tel" id="phone" placeholder="phone" required/>
-</div>
-<br/>
-<div className='input-box'>
-  <input type="date" id="dob" placeholder="dob" required/>
-</div><br/>
-
-<div className='input-box'>
-  <input type="text" id="address" placeholder="address" required/>
-</div><br/>
-
-<div className='input-box'>
-  <input type="text" id="city" placeholder="city" required/>
-</div><br/>
-
-<div className='input-box'>
-  <input type="text" id="state" placeholder="state" required/>
-</div><br/>
-
-<div className='input-box'>
-  <input type="text" id="postalCode" placeholder="postalCode" required/>
-</div><br/>
-
-<div className='input-box'>
-  <input type="text" id="country" placeholder="country" require/>
-</div><br/>
-
-<div className='input-box'>
-  <input type="text" id="education" placeholder="education" required/>
-</div><br/>
-
-<div className='input-box'>
-  <input type="text" id="institution" placeholder="institution" required/>
-</div><br/>
-
-<div className='input-box'>
-  <input type="text" id="graduationYear" placeholder="graduationYear" required/>
-</div>
-</form>
+//     </div>
 
 
-</div>
-</div>
-<div class="col">
-<div class="cardz">
+// </div>
+//   )
+// }
 
-<br/><br/>
-<form>
-<div className='input-box'>
-    <input type="text" id="jobTitle" placeholder="jobTitle" required/>
-</div><br/>
-
-<div className='input-box'>
-    <input type="text" id="companyName" placeholder="companyName" required/>
-</div><br/>
-
-<div className='input-box'>
-    <input type="text" id="employmentDuration" placeholder="employmentDuration" required/>
-</div><br/>
-
-<div className='input-box'>
-    <textarea id="responsibilities" placeholder="responsibilities" rows="4" required></textarea>
-</div><br/>
-
-<div className='input-box'>
-    <input type="text" id="skills" placeholder="skills" required/>
-</div><br/>
-
-<div className='input-box'>
-    <input type="text" id="certifications" placeholder="certifications"/>
-</div><br/>
-
-<div className='input-box'>
-    <input type="text" id="referenceName" placeholder="referenceName" required/>
-</div><br/>
-
-<div className='input-box'>
-    <input type="text" id="referenceContact" placeholder="referenceContact" required/>
-</div><br/>
-
-<div className='input-box'>
-    <input type="file" id="coverLetter" placeholder="coverLetter"/>
-</div><br/>
-
-<div className='input-box'>
-    <input type="file" id="resume" placeholder="resume" required/>
-</div><br/>
-
-<div className="submit-btn input-box">
-    <input type="submit" className='button' value="Submit"/>
-</div>
-    </form>
-
-
-</div>
-</div>
-</div>
-</section>
-  
-    
-</div>
-
-  )
-}
-
-export default Registration
-
+// export default Registration
 

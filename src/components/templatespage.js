@@ -122,36 +122,37 @@ const TemplatesPage = () => {
   };
 
   return (
-    <div className='container-fluid'>
+    <div className='row cols-6 cols-md-2 g-4'>
+    <div className='container-fluid reclass '>
     <section className='registration container-fluid'>
-      <form onSubmit={(e) => e.preventDefault()} className='cardz' style={{width: "25rem"}}>
-        <div className='input-box'>
+      <form onSubmit={(e) => e.preventDefault()} className='cardz' style={{width: "50%" }}>
+        <div className='input-box' >
           Name:
-          <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
+          <input style={{background:"black"}} type="text" value={name} onChange={(e) => setName(e.target.value)} />
         </div>
         <br />
         <div className='input-box'>
           Email:
-          <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+          <input type="email" style={{background:"black"}} value={email} onChange={(e) => setEmail(e.target.value)} />
         </div>
         <br />
         <div className='input-box'>
           Phone:
-          <input type="tel" value={phone} onChange={(e) => setPhone(e.target.value)} />
+          <input type="tel" style={{background:"black"}} value={phone} onChange={(e) => setPhone(e.target.value)} />
         </div>
         <br />
         <div className='input-box'>
           Objective:
-          <textarea value={objective} onChange={(e) => setObjective(e.target.value)} />
+          <textarea value={objective} style={{background:"black" ,color:"white"}} onChange={(e) => setObjective(e.target.value)} />
         </div>
         <br />
         <div className='input-box'>
           Upload photo:
-          <input  type='file' accept='image/*' onChange={handleImageUpload} />
+          <input  type='file' style={{background:"black" }} accept='image/*' onChange={handleImageUpload} />
         </div>
         {imageUrl && (
-          <div>
-            <img src={imageUrl} alt='uploaded' style={{ width: '100px', height: '100px', marginBottom: '20px' }} />
+          <div className='input-box'>
+            <img src={imageUrl}  alt='uploaded' style={{ width: '100px', height: '100px', marginBottom: '20px' }} />
           </div>
         )}
         <h2>Education</h2>
@@ -160,7 +161,7 @@ const TemplatesPage = () => {
             <div className='input-box'>
               Degree:
               <input
-                type="text"
+                type="text" style={{background:"black"}}
                 value={edu.degree}
                 onChange={(e) => {
                   const newEducation = [...education];
@@ -173,7 +174,7 @@ const TemplatesPage = () => {
             <div className='input-box'>
               Institution:
               <input
-                type="text"
+                type="text" style={{background:"black"}}
                 value={edu.institution}
                 onChange={(e) => {
                   const newEducation = [...education];
@@ -186,7 +187,7 @@ const TemplatesPage = () => {
             <div className='input-box'>
               Date:
               <input
-                type="text"
+                type="text" style={{background:"black"}}
                 value={edu.date}
                 onChange={(e) => {
                   const newEducation = [...education];
@@ -211,8 +212,8 @@ const TemplatesPage = () => {
         </section>
 
 
-        <div className='registration'>
-        <form className='cardz2' style={{width: "25rem"}}>
+        <section className='registration container-fluid'>
+        <form className='cardz2' style={{width: "50%"}}>
         <br />
         <h2>Work Experience</h2>
         {workExperience.map((exp, index) => (
@@ -220,7 +221,7 @@ const TemplatesPage = () => {
             <div className='input-box'>
               Company:
               <input
-                type="text"
+                type="text" style={{background:"black"}}
                 value={exp.company}
                 onChange={(e) => {
                   const newWorkExperience = [...workExperience];
@@ -233,7 +234,7 @@ const TemplatesPage = () => {
             <div className='input-box'>
               Position:
               <input
-                type="text"
+                type="text" style={{background:"black"}}
                 value={exp.position}
                 onChange={(e) => {
                   const newWorkExperience = [...workExperience];
@@ -246,7 +247,7 @@ const TemplatesPage = () => {
             <div className='input-box'>
               Date:
               <input
-                type="text"
+                type="text" style={{background:"black"}}
                 value={exp.date}
                 onChange={(e) => {
                   const newWorkExperience = [...workExperience];
@@ -258,7 +259,7 @@ const TemplatesPage = () => {
             <br />
             <div className='input-box'>
               Description:
-              <textarea
+              <textarea style={{background:"black",color:"white"}}
                 value={exp.description}
                 onChange={(e) => {
                   const newWorkExperience = [...workExperience];
@@ -286,7 +287,7 @@ const TemplatesPage = () => {
             <div className='input-box'>
               Skill:
               <input
-                type="text"
+                type="text" style={{background:"black"}}
                 value={skill}
                 onChange={(e) => {
                   const newSkills = [...skills];
@@ -311,6 +312,7 @@ const TemplatesPage = () => {
         <br /><br />
         <button className='dbutton' onClick={generatePdf}>Download Resume</button>
       </form>
+    </section>
     </div>
     </div>
   );
